@@ -77,5 +77,6 @@ int main(int argc, char *argv[]) {
   }
 #endif
 
+  SDL_Quit();
   return 0;
 }
