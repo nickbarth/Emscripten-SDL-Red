@@ -34,7 +34,6 @@ void loop() {
   /* Draw pixels to screen */
   for(int x=0;x<640;x++) {
     for(int y=0;y<480;y++) {
-      bpp = 1;
       pixel = (Uint8 *)screen->pixels + y*screen->pitch + x * bpp;
       *pixel = color;
     }
